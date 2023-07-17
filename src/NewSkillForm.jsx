@@ -1,3 +1,4 @@
+import "./NewSkillForm.css";
 export default function NewSkillForm() {
   return (
     <form className="NewSkillForm">
@@ -11,7 +12,7 @@ export default function NewSkillForm() {
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
-      <button>ADD Skill</button>
+      <button>ADD SKILL</button>
     </form>
   );
 }

@@ -8,6 +8,7 @@ export default function App() {
     <div className="App">
       <h1>React Dev Skills</h1>
       <SkillsList />
+      <hr />
       <NewSkillForm />
     </div>
   );

@@ -13,12 +13,18 @@ const skillsArr = [
 export default function App() {
   const [skills, setSkills] = useState(skillsArr);
 
+  function addSkill(formSkill) {
+    console.log(formSkill);
+    setSkills([...skills, formSkill]);
+    console.log(skills);
+  }
+
   return (
     <div className="App">
       <h1 className="teal-text">React Dev Skills</h1>
-      <SkillsList skills={skillsArr} />
+      <SkillsList skills={skills} />
       <hr />
-      <NewSkillForm />
+      <NewSkillForm addSkill={addSkill} />
     </div>
   );
 }

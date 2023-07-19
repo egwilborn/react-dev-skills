@@ -7,7 +7,7 @@
   font-weight: bold;
   color: teal;
   text-align: left;
-  border: 0.2rem solid coral;
+  border: 0.2rem solid rgb(239, 174, 225);
   border-radius: 0.3rem;
   padding: 1rem;
 }
@@ -18,7 +18,7 @@
   font-weight: bold;
   color: teal;
   padding: 0.2rem;
-  border: 0.2rem solid coral;
+  border: 0.2rem solid rgb(239, 174, 225);
   border-radius: 0.3rem;
   outline: none;
   background-color: white;
@@ -33,4 +33,8 @@
   background-color: teal;
   border: 0.2rem solid teal;
   border-radius: 0.3rem;
+}
+
+.error-message {
+  color: teal;
 }
